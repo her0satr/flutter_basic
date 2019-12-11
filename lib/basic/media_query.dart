@@ -1,20 +1,11 @@
 import 'package:flutter/material.dart';
 
-void main() => runApp(MyApp());
-
-class MyApp extends StatelessWidget {
+class MediaQueryPage extends StatefulWidget {
   @override
-  Widget build(BuildContext context) {
-    return MaterialApp(home: FullState());
-  }
+  _MediaQueryPageState createState() => _MediaQueryPageState();
 }
 
-class FullState extends StatefulWidget {
-  @override
-  _FullStateState createState() => _FullStateState();
-}
-
-class _FullStateState extends State<FullState> {
+class _MediaQueryPageState extends State<MediaQueryPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(

@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 
-void main() => runApp(MyApp());
-
-class MyApp extends StatelessWidget {
+class TabBar02Page extends StatelessWidget {
   final TabBar myTab = TabBar(
     indicator: BoxDecoration(
         color: Colors.red,

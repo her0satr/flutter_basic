@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 
-void main() => runApp(MyApp());
-
-class MyApp extends StatelessWidget {
+class ContainerPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -15,6 +13,8 @@ class MyApp extends StatelessWidget {
               margin: EdgeInsets.all(10),
               padding: EdgeInsets.all(15),
               child: Container(
+                width: MediaQuery.of(context).copyWith().size.width,
+                height: MediaQuery.of(context).copyWith().size.height,
                 decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(20),
                     gradient: LinearGradient(
@@ -24,6 +24,7 @@ class MyApp extends StatelessWidget {
                           Colors.amber,
                           Colors.blue,
                         ])),
+                child: Center(child: Text("Container")),
               ),
             )));
   }

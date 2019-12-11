@@ -1,13 +1,11 @@
 import 'package:flutter/material.dart';
 
-void main() => runApp(MyApp());
-
-class MyApp extends StatefulWidget {
+class ListViewPage extends StatefulWidget {
   @override
-  _MyAppState createState() => _MyAppState();
+  _ListViewPageState createState() => _ListViewPageState();
 }
 
-class _MyAppState extends State<MyApp> {
+class _ListViewPageState extends State<ListViewPage> {
   List<Widget> widgets = [];
   int counter = 1;
 

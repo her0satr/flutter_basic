@@ -1,13 +1,11 @@
 import 'package:flutter/material.dart';
 
-void main() => runApp(MyApp());
-
-class MyApp extends StatefulWidget {
+class FlexibleLayoutPage extends StatefulWidget {
   @override
-  _MyAppState createState() => _MyAppState();
+  _FlexibleLayoutPageState createState() => _FlexibleLayoutPageState();
 }
 
-class _MyAppState extends State<MyApp> {
+class _FlexibleLayoutPageState extends State<FlexibleLayoutPage> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(

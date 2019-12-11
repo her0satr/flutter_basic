@@ -1,13 +1,11 @@
 import 'package:flutter/material.dart';
 
-void main() => runApp(MyApp());
-
-class MyApp extends StatefulWidget {
+class SpacerPage extends StatefulWidget {
   @override
-  _MyAppState createState() => _MyAppState();
+  _SpacerPageState createState() => _SpacerPageState();
 }
 
-class _MyAppState extends State<MyApp> {
+class _SpacerPageState extends State<SpacerPage> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(

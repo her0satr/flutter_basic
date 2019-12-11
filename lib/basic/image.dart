@@ -1,13 +1,11 @@
 import 'package:flutter/material.dart';
 
-void main() => runApp(MyApp());
-
-class MyApp extends StatefulWidget {
+class ImagePage extends StatefulWidget {
   @override
-  _MyAppState createState() => _MyAppState();
+  _ImagePageState createState() => _ImagePageState();
 }
 
-class _MyAppState extends State<MyApp> {
+class _ImagePageState extends State<ImagePage> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(

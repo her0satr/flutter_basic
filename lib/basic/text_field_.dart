@@ -1,13 +1,11 @@
 import 'package:flutter/material.dart';
 
-void main() => runApp(MyApp());
-
-class MyApp extends StatefulWidget {
+class TextFieldPage extends StatefulWidget {
   @override
-  _MyAppState createState() => _MyAppState();
+  _TextFieldPageState createState() => _TextFieldPageState();
 }
 
-class _MyAppState extends State<MyApp> {
+class _TextFieldPageState extends State<TextFieldPage> {
   TextEditingController controller =
       TextEditingController(text: "Nilai Awal 2");
 

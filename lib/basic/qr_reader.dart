@@ -2,14 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:qrscan/qrscan.dart';
 import 'package:permission/permission.dart';
 
-void main() => runApp(MyApp());
-
-class MyApp extends StatefulWidget {
+class QrReaderPage extends StatefulWidget {
   @override
-  _MyAppState createState() => _MyAppState();
+  _QrReaderPageState createState() => _QrReaderPageState();
 }
 
-class _MyAppState extends State<MyApp> {
+class _QrReaderPageState extends State<QrReaderPage> {
   String data = "QR Code Data";
 
   @override
