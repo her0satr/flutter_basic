@@ -45,14 +45,6 @@ class MainPage extends StatelessWidget {
               }));
             },
           ),
-          Container(
-            decoration: new BoxDecoration(
-              color: Colors.green,
-              borderRadius: BorderRadius.circular(25.0),
-            ),
-            width: 100,
-            height: 100,
-          ),
         ],
       ),
     );

@@ -19,9 +19,16 @@ class _FlexibleLayoutPageState extends State<FlexibleLayoutPage> {
                       children: <Widget>[
                         Flexible(
                           flex: 1,
-                          child: Container(
-                            color: Colors.red,
-                            margin: EdgeInsets.only(right: 5),
+                          child: SizedBox.expand(
+                            child: Container(
+                              color: Colors.red,
+                              margin: EdgeInsets.only(right: 5),
+                              child: Center(child: Wrap(
+                                children: <Widget>[
+                                  Text("Center"),
+                                ]
+                              )),
+                            ),
                           ),
                         ),
                         Flexible(
