@@ -7,12 +7,13 @@ class TextFieldPage extends StatefulWidget {
 
 class _TextFieldPageState extends State<TextFieldPage> {
   TextEditingController controller =
-      TextEditingController(text: "Nilai Awal 2");
+      TextEditingController(text: "Nilai Awal");
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
+        resizeToAvoidBottomInset: false,
         body: Container(
           margin: EdgeInsets.all(20),
           child: Column(
